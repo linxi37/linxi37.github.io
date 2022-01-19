@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title></title>
+        <link>undefined</link>
+        <description>undefined</description>
+        <lastBuildDate>Wed, 19 Jan 2022 01:33:18 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>Joplin Pages Publisher</generator>
+        <item>
+            <title><![CDATA[重写与重载之间的区别]]></title>
+            <guid>c7f5e28de094448cb75b63e3a03ba3fb</guid>
+            <pubDate>Tue, 18 Jan 2022 12:40:59 GMT</pubDate>
+            <content:encoded><![CDATA[<h2 id="区别">区别</h2>
+<table>
+<thead>
+<tr>
+<th>区别点</th>
+<th>重载方法</th>
+<th>重写方法</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>参数列表</td>
+<td>必须修改</td>
+<td>一定不能修改</td>
+</tr>
+<tr>
+<td>返回类型</td>
+<td>可以修改</td>
+<td>一定不能修改</td>
+</tr>
+<tr>
+<td>异常</td>
+<td>可以修改</td>
+<td>可以减少或删除，一定不能抛出新的或者更广的异常</td>
+</tr>
+<tr>
+<td>访问</td>
+<td><span style="color:#ff1493" class="jop-noMdConv">可以修改</span></td>
+<td>一定不能做更严格的限制（可以降低限制）</td>
+</tr>
+</tbody>
+</table>
+<h2 id="总结">总结</h2>
+<p>方法的重写(Overriding)和重载(Overloading)是java多态性的不同表现，重写是父类与子类之间多态性的一种表现，重载可以理解成多态的具体表现形式。</p>
+<ul>
+<li>方法重载是一个类中定义了多个方法名相同，而他们的参数的数量不同或者数量相同而类型和次序不同，则称为方法的重载（overloading）。</li>
+<li>方法重写在子类存在与父类的方法的名字相同，而且参数的个数于类型一样，返回的类型也一致，就称为方法的重写（overriding）</li>
+<li>方法的重载是一个类的多态性表现，而方法的重写是子类与父类的一种多态性表现。</li>
+</ul>
+<p><img src="https://gitee.com/gzl_admin/picture_bed/raw/master/img/202112/20211230215337.png" />
+<img src="https://gitee.com/gzl_admin/picture_bed/raw/master/img/202112/20211230215346.png" /></p>
+]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[发布网页]]></title>
+            <guid>2c8c13bb58ab4070884d3acdd305e249</guid>
+            <pubDate>Tue, 18 Jan 2022 08:23:37 GMT</pubDate>
+            <content:encoded><![CDATA[测试数据]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[测试类]]></title>
+            <guid>a94ae0acc59145b880c6b8e6af1c3235</guid>
+            <pubDate>Tue, 18 Jan 2022 07:00:28 GMT</pubDate>
+            <content:encoded><![CDATA[<p><mark>marked text</mark><s>struck out text</s><ins>underlined text</ins>
+<mark>underlined text</mark>  <mark>手动阀手动阀</mark>^superscript text^~subscript text~
+<mark>顺德府</mark></p>
+<ul>
+<li class="md-checkbox joplin-checkbox"><div class="checkbox-wrapper"><input type="checkbox" id="md-checkbox-5" /><label id="cb-label-md-checkbox-5" for="md-checkbox-5" class="checkbox-label-unchecked">学习</label></div></li>
+<li class="md-checkbox joplin-checkbox"><div class="checkbox-wrapper"><input type="checkbox" id="md-checkbox-6" /><label id="cb-label-md-checkbox-6" for="md-checkbox-6" class="checkbox-label-unchecked">吃饭</label></div></li>
+<li class="md-checkbox joplin-checkbox"><div class="checkbox-wrapper"><input type="checkbox" id="md-checkbox-7" /><label id="cb-label-md-checkbox-7" for="md-checkbox-7" class="checkbox-label-unchecked">是</label></div></li>
+<li class="md-checkbox joplin-checkbox"><div class="checkbox-wrapper"><input type="checkbox" id="md-checkbox-8" /><label id="cb-label-md-checkbox-8" for="md-checkbox-8" class="checkbox-label-unchecked">再来一次</label></div></li>
+<li class="md-checkbox joplin-checkbox"><div class="checkbox-wrapper"><input type="checkbox" id="md-checkbox-9" /><label id="cb-label-md-checkbox-9" for="md-checkbox-9" class="checkbox-label-unchecked">顺德府</label></div></li>
+</ul>
+]]></content:encoded>
+        </item>
+    </channel>
+</rss>
